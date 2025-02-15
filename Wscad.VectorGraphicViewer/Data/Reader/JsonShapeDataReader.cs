@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.Text.Json;
 using Wscad.VectorGraphicViewer.Contracts;
-using Wscad.VectorGraphicViewer.Extensions.Helpers;
 
 namespace Wscad.VectorGraphicViewer.Data.Reader
 {
