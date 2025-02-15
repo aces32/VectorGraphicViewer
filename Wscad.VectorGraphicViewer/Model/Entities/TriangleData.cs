@@ -22,14 +22,15 @@ namespace Wscad.VectorGraphicViewer.Model.Entities
             {
                 Points = new PointCollection
                 {
-                    new Point(-x1, -y1),
-                    new Point(x2, -y2),
-                    new Point(x3, y3)
+                    new Point(x1 , -y1),
+                    new Point(x2 , -y2),
+                    new Point(x3 , -y3)
                 },
                 Stroke = GetParsedColor(),
                 StrokeThickness = 1,
                 Fill = Filled ? GetParsedColor() : Brushes.Transparent
             };
         }
+
     }
 }

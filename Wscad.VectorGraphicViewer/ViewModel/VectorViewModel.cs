@@ -23,8 +23,8 @@ namespace Wscad.VectorGraphicViewer.ViewModel
                 {
                     Shapes.Add(shape.ToUIElement());
                 }
+
             }
         }
-
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-using Wscad.VectorGraphicViewer.Data;
-using Xunit;
+﻿using Wscad.VectorGraphicViewer.Data;
 
 namespace Wscad.VectorGraphicViewer.UnitTests.Data
 {

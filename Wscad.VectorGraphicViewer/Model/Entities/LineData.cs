@@ -16,13 +16,14 @@ namespace Wscad.VectorGraphicViewer.Model.Entities
 
             return new Line
             {
-                X1 = -x1,
-                Y1 = y1, 
+                X1 = x1,
+                Y1 = -y1,
                 X2 = x2,
-                Y2 = y2, 
+                Y2 = -y2,
                 Stroke = GetParsedColor(),
                 StrokeThickness = 1
             };
         }
+
     }
 }

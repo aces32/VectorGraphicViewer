@@ -29,6 +29,9 @@ namespace Wscad.VectorGraphicViewer.Model.Entities
                 Fill = Filled ? GetParsedColor() : Brushes.Transparent
             };
 
+            Canvas.SetLeft(ellipse, (cx - Radius));
+            Canvas.SetTop(ellipse, (-cy - Radius));
+
             return ellipse;
         }
     }
