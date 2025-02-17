@@ -24,7 +24,7 @@ namespace Wscad.VectorGraphicViewer.UnitTests.ViewModel
         }
 
         [Fact]
-        public async Task SelectViewModel_ShouldChangeSelectedViewModel()
+        public Task SelectViewModel_ShouldChangeSelectedViewModel()
         {
             // Arrange
             var mockVectorViewModel = new Mock<VectorViewModel>(MockBehavior.Strict, null);
@@ -38,6 +38,7 @@ namespace Wscad.VectorGraphicViewer.UnitTests.ViewModel
             // Assert
             Assert.Equal(mockOtherViewModel.Object, viewModel.SelectedViewModel);
             mockOtherViewModel.Verify(vm => vm.LoadAsync(), Times.Once);
+            return Task.CompletedTask;
         }
     }
 }
