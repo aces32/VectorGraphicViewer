@@ -1,7 +1,7 @@
-# Wscad.VectorGraphicViewer
+# VectorGraphicViewer
 ```python
 #Overview
-Wscad.VectorGraphicViewer is a WPF application designed to visualize vector graphics. 
+VectorGraphicViewer is a WPF application designed to visualize vector graphics. 
 The application supports various shape types such as lines, circles, and triangles, and provides a flexible architecture for loading and displaying these shapes.
 
 ```
