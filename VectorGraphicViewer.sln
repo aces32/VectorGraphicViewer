@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorGraphicViewer", "VectorGraphicViewer\VectorGraphicViewer.csproj", "{60BB72BD-713D-4C1C-9193-DC443EB11366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorGraphicViewer.UnitTest", "VectorGraphicViewer.UnitTest\VectorGraphicViewer.UnitTest.csproj", "{99884A5F-CC11-4DAB-951D-DC1FC3AD44B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60BB72BD-713D-4C1C-9193-DC443EB11366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BB72BD-713D-4C1C-9193-DC443EB11366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BB72BD-713D-4C1C-9193-DC443EB11366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BB72BD-713D-4C1C-9193-DC443EB11366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99884A5F-CC11-4DAB-951D-DC1FC3AD44B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99884A5F-CC11-4DAB-951D-DC1FC3AD44B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99884A5F-CC11-4DAB-951D-DC1FC3AD44B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99884A5F-CC11-4DAB-951D-DC1FC3AD44B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
